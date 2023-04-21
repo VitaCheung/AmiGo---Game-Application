@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage of AmiGo</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="homepage">
+        <header>
+            <img src="image/Welcome Banner.png" id="welcome" alt="welcome">
+        </header>
+        
+            <main>
+                <img src="image/home.png" id="homeIcon" alt="home icon">
+                <div id="logo">
+                    <p id="AmiGo">AmiGo</p><img src="image/hand.png" id="hand" alt="hand logo">  
+                </div>
+                <!-- <img src="image/logo.png" id="logo" alt="brand logo">              -->
+                <p id="welcomeSpeech" >Explore your community and make new friends! </p>                           
+                <button class="Start_btn">GET STARTED</button>             
+            </main>       
+    </div>
+    <div id="formpage">
+        <div class="heading">
+            <div id="logo">
+                <p id="AmiGo">AmiGo</p><img src="image/hand.png" id="hand" alt="hand logo">  
+            </div>
+            <!-- <img src="image/logo.png" id="logo" alt="brand logo">  -->
+        </div>
+        <div id="signUp">
+            <img src="image/signUp.png" id="signUpLogo" alt="Sign up logo">
+            <p class="blackContent">Sign Up</p>
+            <form>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" value="Name"><br>
+                <label for="email"></label>
+                <input type="text" id="email" name="email" value="Email"><br>
+                <label for="password"></label>
+                <input type="text" id="password" name="password" value="Password"><br>
+                <label for="re-enter password"></label>
+                <input type="text" id="re-enterPassword" name="re-enterPassword" value="Re-Enter Password"><br>
+                <input type="checkbox" id="signing" name="signing">
+                <label for="signing" class="terms"> By signing up you accept the <a class="link">Terms of Service</a> and <a class="link">Privacy Policy</a></label><br>
+                <button class="signUp_btn">SIGN UP</button>   
+            </form>
+            <p class="terms">Already have an account? <a class="link">Sign In</a></p>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-5c5cff) 0%, #2E2E80 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #5C5CFF 0%, #2E2E80 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#homepage, main, #formpage{
+    text-align: center;
+    /* place-items:center; */
+    width:100%;
+}
+#welcome{
+    width: 385px;
+    margin-bottom:-7em;
+}
+#homeIcon{
+    margin-bottom:-4em;
+}
+#logo{
+    width: 205px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+}
+#AmiGo{
+    text-align: center;
+    font: normal normal bold 50px/66px Roboto;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    padding-right: 0.1em;
+    margin: 0;
+}
+#welcomeSpeech{
+    margin: 30px 92px;
+    font: normal normal light 20px/26px Roboto;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Start_btn{
+    font-size: 1em;
+    font: normal normal medium 20px/26px Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 218px;
+    height: 58px;
+    background: #EF638B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 100px;
+}
+.Start_btn:hover, .signUp_btn:hover{
+    background: #ff87a9 0% 0% no-repeat padding-box;
+}
+#signUp{
+    background: var(--unnamed-color-f2f2f2) 0% 0% no-repeat padding-box;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 50px 50px 0px 0px;
+    opacity: 1;
+    width:100%;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100%;
+    animation-name: slideup;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-direction: normal;
+}
+
+@keyframes slideup
+{
+    0%
+    {  
+        transform: translate(0,100%);
+    }
+    100%
+    {
+        transform: translate(0,0%);
+    }
+}
+
+#heading{
+    margin-top: 32px;
+    margin-bottom: 17px;
+}
+#signUpLogo{
+    margin-top: -3em;
+    margin-bottom: -3em;
+    width: 368px;
+    height: 477px;
+}
+.blackContent{
+color: #000000;
+}
+#name, #email, #password, #re-enterPassword{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width:356px;
+    height: 41px;
+    border: none;
+    margin-bottom: 25px;
+    color: #A3A3A3;
+    font: normal normal 300 20px/26px Roboto;
+    letter-spacing: 0px;
+    padding-left: 15px;
+}
+#signing{
+    border: 0.25px solid var(--unnamed-color-a3a3a3);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #A3A3A3;
+    width: 17px;
+    height: 17px;
+}
+.terms{
+    font: normal normal normal 11px/15px Roboto;
+    color: #707070;
+}
+.link{
+    text-align: left;
+    font: normal normal normal 11px/15px Roboto;
+    color: #EF638B;
+}
+.link:hover{
+    color: #5C5CFF;
+}
+.signUp_btn{
+    width: 218px;
+    height: 58px;
+    font-size: 1em;
+    font: normal normal medium 20px/26px Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #EF638B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+@media screen and (min-width:480px) {
+
+    #homepage, #formpage{
+        width:480px;
+        
+         
+    }
+    body {
+        width: 100%;
+        display: grid;
+        place-items:center;
+        
+        
+    }
+    
+        
+    }

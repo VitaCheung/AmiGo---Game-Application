@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="76" viewBox="0 0 236 76">
+  <defs>
+    <filter id="Rectangle_47" x="0" y="0" width="236" height="76" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_54" data-name="Group 54" transform="translate(-97 -818)">
+    <g transform="matrix(1, 0, 0, 1, 97, 818)" filter="url(#Rectangle_47)">
+      <rect id="Rectangle_47-2" data-name="Rectangle 47" width="218" height="58" rx="20" transform="translate(9 6)" fill="#ef638b"/>
+    </g>
+    <text id="SIGN_UP" data-name="SIGN UP" transform="translate(177 861)" fill="#fff" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">SIGN UP</tspan></text>
+  </g>
+</svg>

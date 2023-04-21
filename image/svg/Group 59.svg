@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="356" height="17" viewBox="0 0 356 17">
+  <g id="Group_59" data-name="Group 59" transform="translate(-37 -722)">
+    <g id="Rectangle_50" data-name="Rectangle 50" transform="translate(37 722)" fill="#fff" stroke="#a3a3a3" stroke-width="0.25">
+      <rect width="17" height="17" stroke="none"/>
+      <rect x="0.125" y="0.125" width="16.75" height="16.75" fill="none"/>
+    </g>
+    <text id="By_signing_up_you_accept_the_Terms_of_Service_and_Privacy_Policy" data-name="By signing up you accept the Terms of Service and Privacy Policy" transform="translate(60 722)" fill="#707070" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">By signing up you accept the </tspan><tspan y="12" fill="#ef638b">Terms of Service</tspan><tspan y="12" xml:space="preserve"> and </tspan><tspan y="12" fill="#ef638b">Privacy Policy</tspan></text>
+  </g>
+</svg>
